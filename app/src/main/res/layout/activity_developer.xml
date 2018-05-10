@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/onthewater"
+    tools:context="me.aflak.bluetoothterminal.Developer">
+    <TextView
+        android:id="@+id/AboutApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About the App"
+        android:textSize="28sp"
+        android:textColor="#ffffff"
+       android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"/>
+    <ImageView
+        android:id="@+id/mao"
+        android:src="@drawable/sdf"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/AboutApp"/>
+
+    <TextView
+        android:id="@+id/Expound"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="  This application was developed by Alexander Sears of Vision Marine Products for the operation of the Easy Cover automatic mooring cover system."
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/mao"/>
+
+    <ImageButton
+        android:id="@+id/fb"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/fb"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
